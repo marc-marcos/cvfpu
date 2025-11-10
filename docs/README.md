@@ -321,7 +321,7 @@ The unit type `unit_type_t` is an enumeration of type `logic [1:0]` holding the 
 | `MERGED`   | One combined multi-format hardware unit will be generated for all formats selecting `MERGED` |
 
 The `UnitTypes` parameter allows to control resources used for the FPU by either removing operation units for certain formats and operations, or merging multiple formats into one.
-Currently, the follwoing unit types are available for the FPU operation groups:
+Currently, the following unit types are available for the FPU operation groups:
 
 |            |      `ADDMUL`      |     `DIVSQRT`      |     `NONCOMP`      |       `CONV`       |
 |------------|--------------------|--------------------|--------------------|--------------------|
